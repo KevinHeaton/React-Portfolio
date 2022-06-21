@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.3f529975.css",
+    "main.js": "/react-portfolio/static/js/main.5195fda8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/BackgroundVideo.mp4": "/react-portfolio/static/media/BackgroundVideo.1cbf2443d90508a836de.mp4",
+    "static/media/SuperWiki.png": "/react-portfolio/static/media/SuperWiki.306beb8787642b6e63c3.png",
+    "static/media/photo-port.png": "/react-portfolio/static/media/photo-port.6d5cf327bd85317ad3b1.png",
+    "static/media/run-buddy.png": "/react-portfolio/static/media/run-buddy.5bcdb810b323e0042864.png",
+    "static/media/Who-Do.png": "/react-portfolio/static/media/Who-Do.a01151ea69b11ddecbe0.png",
+    "static/media/portraite.png": "/react-portfolio/static/media/portraite.43c96808c6686a647983.png",
+    "static/media/Regex-Tutorial.png": "/react-portfolio/static/media/Regex-Tutorial.2c23dedb5ec9c7be35aa.png",
+    "static/media/Taskmaster-pro.png": "/react-portfolio/static/media/Taskmaster-pro.71c7d2b31f2d9841aff4.png",
+    "static/media/Team-Profile-Generator.png": "/react-portfolio/static/media/Team-Profile-Generator.ddccdbd711829e4b9ad0.png",
+    "static/media/Workday-Scheduler.png": "/react-portfolio/static/media/Workday-Scheduler.43404f2656c00d012ad9.png",
+    "static/media/ReadMeGenerator.png": "/react-portfolio/static/media/ReadMeGenerator.23433b10e0720ad4f377.png",
+    "static/media/Taskinator.png": "/react-portfolio/static/media/Taskinator.557f153e8ee6e041ad41.png",
+    "static/media/ContactMe.png": "/react-portfolio/static/media/ContactMe.00c953d42336e278819f.png",
+    "static/media/Logo.png": "/react-portfolio/static/media/Logo.336131ec614c3562c068.png",
+    "static/media/EmailLogo.png": "/react-portfolio/static/media/EmailLogo.d2ecb260bc3942078e55.png",
+    "static/media/AboutMe.png": "/react-portfolio/static/media/AboutMe.dbf5b6d80f5ebc856af3.png",
+    "static/media/GitHub.png": "/react-portfolio/static/media/GitHub.5594b0ec61ff96d0a1b2.png",
+    "static/media/Mission.png": "/react-portfolio/static/media/Mission.d7e60b0e8e9f1df987d8.png",
+    "static/media/Phone.png": "/react-portfolio/static/media/Phone.bd33ad9b66abae838194.png",
+    "static/media/MyProjects.png": "/react-portfolio/static/media/MyProjects.85ad29b3b4819d0f81d7.png",
+    "static/media/LinkedIn.png": "/react-portfolio/static/media/LinkedIn.123c9fec9d77349ee1f5.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.3f529975.css.map": "/react-portfolio/static/css/main.3f529975.css.map",
+    "main.5195fda8.js.map": "/react-portfolio/static/js/main.5195fda8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f529975.css",
+    "static/js/main.5195fda8.js"
+  ]
+}
