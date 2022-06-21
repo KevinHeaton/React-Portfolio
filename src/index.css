@@ -11,3 +11,303 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+:root {
+  --dark-gray: #272727;
+  --gray: #3d3c3c;
+  --yellow: #E5A024;
+  --blue: #0699c0;
+  --orange: #cf4327;
+  --brown: #7d683f;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--orange);
+}
+
+/* Nav */
+
+.nav {
+  background-color: var(--dark-gray);
+  position: sticky; top: 0;
+  min-width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  margin: 0 20px;
+  padding: 0 20px;
+  height: 125px;
+  width: 125px;
+  background-color: var(--dark-gray);
+}
+
+.nav img {
+  background-color: var(--dark-gray);
+  margin: 0;
+  padding: 0;
+  height: 125px;
+  width: 125px;
+}
+
+.nav img:hover {
+ background-color: var(--gray);
+}
+
+
+/* End Nav */
+
+/* Main Section */
+
+main {
+  position: relative;
+  padding: 0 0;
+  min-width: 100%;
+}
+
+#hero {
+  position: relative;
+}
+
+#video {  
+  min-width: 100%;
+  min-height: 100px;
+  object-fit: contain;
+  z-index: -1;
+  position: fixed;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* End Main */
+
+/* About Me */
+
+#about-me, .projects, #contact, #mission {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 125px 1em 1em 1em;
+  background-color: var(--gray);
+  justify-content: center;
+  align-content: center;
+  min-width: 100%;
+}
+
+.abtitle h1, #projects h1, .contacts h1, .missiontitle h1 {
+  text-align: center;
+  margin: 5px;
+  font-size: 50px;
+}
+
+.abcontent {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.abcontent img {
+  margin: auto;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 210px;
+  width: 200px;
+}
+
+.abcontent p {
+  margin: auto;
+  padding: 0 20px;
+}
+
+
+/* End About Me */
+
+/* Mission */
+
+.missiontitle {
+  color: var(--brown);
+  text-align: center;
+}
+
+.missiontitle p {
+  margin: 50px;
+  text-align: left;
+}
+
+/* End Mission */
+
+/* Projects */
+  
+.projects h1 {
+  text-align: center;
+}
+
+.flex-row, .projects h1 {
+  background-color: var(--gray);
+  color: var(--yellow);
+  position: relative;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 100%;
+}
+
+#Who-Do, #SuperWiki {
+  display: flexbox;
+  justify-content: space-evenly;
+  height: 300px;
+  width: 640px;
+  margin: 20px;
+}
+
+#Photo-Port, #WorkdayScheduler, #RobotGladiators, #Taskinator, #RunBuddy, #TaskmasterPro, #TeamProfileGenerator, #RegexTutorial {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+/* End Projects */
+
+/* Modal */
+
+.card {
+  width: 25%;
+  text-align: center;
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 125px;
+	z-index: 1;
+}
+
+.modalContainer {
+	background: var(--dark-gray);
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 960px;
+}
+
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.modalContainer img {
+  height: 300px;
+  width: 400px;
+  justify-content: center;
+}
+
+.modalContainer p {
+  margin: 10px;
+}
+
+button {
+	background: var(--brown);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+  margin: 15px 15px 30px 15px;
+	padding: 10px 15px;	
+}
+
+/* End Modal */
+
+/* Contact */
+
+#contact {
+  display: flex;
+}
+
+.contacts {
+  color: var(--blue);
+  text-align: center;
+  width: 100%;
+}
+
+.contacts h1 {
+  font-style: normal;
+}
+
+.filler {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.filler img {
+  width: 300px; 
+  height: 300px;
+}
+
+/* End Contact*/
+
+/* media queries */
+
+@media screen and (max-width: 670px) {
+  .overlay img {
+      width: 100%;
+  }
+  
+  .abcontent {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  #projects img {
+      width: 90%;
+      display: flex;
+      margin: auto;
+      padding: 20px;
+  }
+  
+  #about-me, #projects, #contact {
+     width: 100%; 
+  }
+}
