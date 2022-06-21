@@ -32,7 +32,7 @@ const ProjectList = () => {
       description: 'Manage your workday by keeping track of your meetings and other events in an easy to read hourly format.',
       github: 'https://github.com/KevinHeaton/Workday-Scheduler',
       deployed: 'https://kevinheaton.github.io/Workday-Scheduler/',
-      pic: 'workday-scheduler'
+      pic: 'Workday-Scheduler'
     },
     {
       name: 'RobotGladiators',
@@ -46,7 +46,7 @@ const ProjectList = () => {
       description: 'Keep track of your tasks in a kanban board format.',
       github: 'https://github.com/KevinHeaton/taskinator',
       deployed: 'https://kevinheaton.github.io/taskinator/',
-      pic: 'taskinator'
+      pic: 'Taskinator'
     },
     {
       name: 'RunBuddy',
