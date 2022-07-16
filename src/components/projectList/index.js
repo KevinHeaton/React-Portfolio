@@ -7,6 +7,13 @@ const ProjectList = () => {
 
   const [projects] = useState([
     {
+      name: 'Musicology',
+      description: 'An application for muscicians to communicate and work with each other.',
+      github: 'https://github.com/KevinHeaton/musician-networking-app',
+      deployed: 'https://musicology-umekev.herokuapp.com/',
+      pic: 'musicology'
+    },
+    {
       name: 'Who-Do',
       description: 'An application to find the hottest events taking place in Austin, TX. Easily sign up and RSVP to your favorite upcoming events.',
       github: 'https://github.com/KevinHeaton/who-do',
